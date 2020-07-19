@@ -1,0 +1,22 @@
+Invalid command
+4<> mandatory parameters and [] optional parameters 
+ - help: to get list of commands
+-- reset: to reset machine to initial setting
+%- quit: to exit from the application
+Y- order: to order beverages, enter beverage name as <beverage1> [<beverage2>, ...] like:
+/ order hot_coffee green_tea black_tea hot_tea 
+%Following beverages are available : 
+hot_coffee
+
+green_tea
+
+black_tea
+hot_tea
+
+Ahot_coffee cannot be prepared because hot_milk is not available
+Egreen_tea cannot be prepared because green_mixture is not available
+black_tea is prepared
+Ahot_tea cannot be prepared because sugar_syrup is not available
+Invalid command
+Machine reset success!
+Bye!
